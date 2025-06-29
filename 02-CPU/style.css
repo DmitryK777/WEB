@@ -1,0 +1,163 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body 
+{
+    font-family: 'Roboto Condensed';
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h1
+{
+    font-size: 48px;
+}
+
+h2 
+{
+    font-size: 40px;
+}
+
+h3 
+{
+    font-size: 34px;
+}
+
+h4 
+{
+    font-size: 28px;
+}
+
+p 
+{
+    font-size: 24px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+
+/*
+.img_von_noeman
+{
+    display: block;
+    text-align: center;
+}
+*/
+
+figure 
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+table 
+{
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody 
+{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.thead, .thead a, .thead td {
+    background: #6b5fb5 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: .9em !important;
+    text-align: center;
+}
+
+.b-article table td Specificity: (0,1,2) 
+{
+    border: 1px solid #aeaed3;
+}
+
+.b-article__content table td, .b-article__content table th, .b-article__content table.table-lined td, .b-article__content table.table-lined th
+Specificity: (0,2,2) 
+{
+    padding: 5px 10px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.row1 {
+    background: #ecebf6;
+    color: #000;
+    font-size: .9em;
+    text-align: center;
+}
+
+.row2 {
+    background: #dad7ed;
+    color: #000;
+    font-size: .9em;
+    text-align: center;
+}
+
+.notes 
+{
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    
+    position: relative;
+    left: -35px;
+}
+
+.notes li 
+{
+    font-weight: normal;
+}
+
+blockquote {
+    
+    text-align: justify;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 300;
+
+    position: relative;
+}
+
+blockquote:before {
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: -45px;
+    content: "🙶";
+    color: #ccc;
+    font-size: 80px;
+}
+
+.methods li
+{
+    font-size: 24px;
+}
+
+ol {
+    font-size: 24px;
+}
+
+.special_quote
+{
+    text-align: right;
+}
+
+.special_quote:before
+{
+    display: none;
+}
