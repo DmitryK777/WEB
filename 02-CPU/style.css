@@ -161,3 +161,23 @@ ol {
 {
     display: none;
 }
+
+ul
+{
+    list-style-type: circle;
+}
+
+a
+{
+    color: red;
+}
+
+a:hover {
+    color: lightblue;
+    font-weight: 800;
+}
+
+a:visited
+{
+    color: darkblue;
+}
