@@ -181,3 +181,44 @@ a:visited
 {
     color: darkblue;
 }
+
+table 
+{
+    border-collapse: collapse;
+    border: solid 2px;
+}
+
+thead 
+{
+    background-color: #6B5FB5;
+    color: white;
+    border: solid 2px black;
+}
+
+th 
+{
+    border: solid 2px;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-color: white;
+    padding: 10px 50px;
+}
+
+td
+{
+    border:solid 1px;
+}
+
+.table-first-header
+{
+    border-left: solid 1px black;
+}
+
+.table-last-header {
+    border-right: solid 1px black;
+}
+
+table
+{
+
+}
