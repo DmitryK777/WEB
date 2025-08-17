@@ -1,0 +1,35 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body 
+{
+    font-family: Roboto Condensed;
+    font-size:   48px;
+    background-image: linear-gradient(to right, lightgrey, lightblue);
+}
+
+h1
+{
+    text-align: center;
+}
+
+ol
+{
+    list-style: upper-roman;
+    margin: 0 50px;
+}
+
+a
+{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+a:visited
+{
+    color: darkblue;
+}
