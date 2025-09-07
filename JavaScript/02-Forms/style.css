@@ -1,16 +1,28 @@
-﻿﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-body {
+﻿﻿﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body 
+{
     font-family: Roboto Condensed;
     font-size: 32px;
 }
 
+
+details, summary 
+{
+    font-family: Roboto Condensed;
+    font-size: 32px;
+}
+
+#full-time, #time-of-day
+{
+    font-family: Roboto Condensed;
+    font-size: 32px;
+}
+
+
 #header {
     display: flex;
     justify-content: space-between;
-}
-
-input /*[type=number]*/, select, option {
-    font-size: 24px;
 }
 
 #switch-background {
@@ -39,21 +51,26 @@ input /*[type=number]*/, select, option {
         background-image: url("img/sun.png");
     }
 
+/*------------------------------------------------------*/
 form {
     border: solid 1px;
     border-radius: 10px;
     margin: 5%;
     padding: 5%;
-    box-shadow: grey 0px 0px 15px 15px;
+    box-shadow: 0px 0px 15px 15px grey;
 }
 
 .pair {
-    border: solid 1px;
+    /*border:solid 1px;*/
     width: 50%;
     display: flex;
     justify-content: space-between;
     margin: 5px;
     padding: 5px;
+}
+
+input /*[type=number]*/, select {
+    font-size: 24px;
 }
 
 #power-form input {
@@ -66,8 +83,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 fieldset {
-    width: 50%;
-    margin: 5%;
+    width: 46%;
 }
 
 #registration {
@@ -76,12 +92,38 @@ fieldset {
 
 #upload-photo {
     border: solid 1px;
-    width: 75%;
-    height: 100vh;
+    width: 59vh;
+    height: 80vh;
 }
 
-    #upload-photo img {
-        border: solid 1px;
-        width: 38vh;
-        height: 58vh;
-    }
+#upload-photo img {
+    border: solid 1px;
+    width: 38vh;
+    height: 58vh;
+}
+
+/*           Time          */
+
+#full-time {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#clock {
+    margin-top: 50px;
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+#current-date {
+    font-family: Roboto Condensed;
+    font-size: 32px;
+}
+
+#weekday {
+    font-family: Roboto Condensed;
+    font-size: 32px;
+    text-align: center;
+    
+}
