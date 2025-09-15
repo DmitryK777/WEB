@@ -90,8 +90,9 @@ document.getElementById("btn-start").onclick = function startCountdownTimer()
     {
         btnStart.value = "Stop";
         tickCountdown();
+        
 
-        //document.getElementById("target-date-value").innerHTML = targetDateControl.valueAsDate;
+       //document.getElementById("target-date-value").innerHTML = targetDateControl.valueAsDate;
        //document.getElementById("target-time-value").innerHTML = targetTimeControl.valueAsDate;
     }
     else
@@ -127,4 +128,17 @@ function tickCountdown()
     // Debug target datetime
     document.getElementById("target-date-value").innerHTML = targetDate;
     document.getElementById("target-time-value").innerHTML = targetTime;
+
+    let hours = Math.floor((targetTime - now) / (1000 * 60 * 60));
+
+    let minutes = Math.floor((((targetTime - now) / (1000 * 60 * 60)) - hours) * 60);
+
+    let seconds = Math.floor((((((targetTime - now) / (1000 * 60 * 60)) - hours) * 60) - minutes) * 60);
+
+    document.getElementById("hours-unit").innerHTML = hours;
+    document.getElementById("minutes-unit").innerHTML = minutes;
+    document.getElementById("seconds-unit").innerHTML = seconds;
+
+    setTimeout(tickCountdown, 100);
 }
+
